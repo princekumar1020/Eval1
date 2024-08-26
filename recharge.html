@@ -2,47 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta navme="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
     <link rel="stylesheet" href="recharge.css">
 </head>
 <body>
-     <div class="top">
+    <nav class="top">
         <div class="container top-nav flex">
-            <div class="left-top">
-                <ul type="none" class="top-child flex">
-                    <li><a href="#"class="hover-link" >individual</a></li>
-                    <li><a href="#" class="hover-link">business</a></li>
-                    <li><a href="#" class="hover-link">investor</a></li>
-                </ul>
+            <div class="top-left">
+               <ul type="none" class="flex">
+                <li style=" border-top:2px solid #E90000;"><a href="#" style="color:#E90000;">INDIVIDUAL</a></li>
+                <li><a href="#">BUSINESS</a></li>
+                <li><a href="#">INVESTOR</a></li>
+               </ul>
             </div>
-            <div class="right-top flex">
-                <img src="img/asset 15.svg" alt="this is img">
-                <span>Explore airtel</span>
-                <img src="img/asset 16.svg" alt="this is img">
+            <div class="top-right flex">
+                <div class="explore flex"><img src="img/asset 15.svg" alt="inner img"><span>Explore Airtel</span></div>
+                <i class="fa-solid fa-circle-chevron-down fa-flip" style="color:#E90000;"></i>
             </div>
         </div>
-     </div>
-     <hr>
-     <nav>
-        <div class="container navbar flex">
-            <div>
+    </nav>
+    <hr>
+    <nav class="main">
+        <div class="container main-nav flex">
+            <div class="main-left">
                 <img src="img/asset 21.svg" alt="company-logo" style="width: 75px;height:50px">
             </div>
-            <div class="nav-right">
+            <div class="main-right">
                 <ul type="none" class="flex">
-                    <li><a href="#" class="main-links">Airtel Black</a></li>
-                    <li><a href="#" class="main-links">prepaid</a></li>
-                    <li><a href="#" class="main-links">postpaid</a></li>
-                    <li><a href="#" class="main-links">Wi-Fi</a></li>
-                    <li><a href="#" class="main-links">DTH</a></li>
-                    <li><a href="#" class="main-links account flex"><img src="img/asset 22.svg" alt="company-logo" style="width:20px;">Account</a>
-                      
+                    <li>Prepaid</li>
+                    <li>Postpaid</li>
+                    <li>Wi-Fi</li>
+                    <li>Bank</li>
+                    <li><div class="account flex"><img src="img/asset 22.svg" alt=""><span>Account</span></div>
+                        <div class="sub-menu">
+                            <ul type="none">
+                                <li><a href="#" class="flex"><img src="img/asset 23.svg" alt=""><span>Login</span></a></li>
+                                <li><a href="#" class="flex"><img src="img/asset 24.svg" alt=""><span>Recharge</span></li>
+                                <li><a href="#" class="flex"><img src="img/asset 25.svg" alt=""><span>Help</span></li>
+                            </ul>
+                        </div>
                     </li>
                 </ul>
             </div>
         </div>
-     </nav>
-     <hr>
+    </nav>
+    <hr>
 </body>
 </html>
