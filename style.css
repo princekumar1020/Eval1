@@ -1,0 +1,70 @@
+.card-img-top{
+    height: 160px;
+    width: 300px    ;
+}
+.headline{
+    margin-top: -18%;
+    margin-left: -180px;
+    color: red;
+}
+.card-text-3{
+    color: grey;
+    margin-left: -81px;
+    margin-top: -3%;
+}
+.card-title-3{
+    margin-left: -26px;
+    margin-top: -5%;
+}
+.buy3{
+    background-color:black;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    margin-left: -83px;
+    border: 0cm;
+    width: 90px;
+    height: 30px;
+}
+.buy3:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 3s;
+    border: 0cm;
+    width: 90px;
+    height: 30px;
+}
+.reco:hover {
+    color: red;
+    transition-duration: 3s;
+}
+.card-img-top-2{
+    border-radius: 5px 5px 0px 0px;
+
+}
+.card-title-2{
+    margin-left: -26px;
+    margin-top: -6%;
+}
+.card-text-2{
+    color: grey;
+    margin-left: -81px;
+    margin-top: -3%;
+}
+.buy2{
+    background-color:black;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    margin-left: -83px;
+    border: 0cm;
+    width: 90px;
+    height: 30px;
+    margin-top: -4%;
+}
+.buy2:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 3s;
+    border: 0cm;
+    width: 90px;
+    height: 30px;
+}
