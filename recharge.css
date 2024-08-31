@@ -142,6 +142,66 @@ a{
 .recharge{
     width:100%;
     height:50vh;
+    display:flex;
+    flex-direction:column;
+    background-color: #f7f7fa;
+}
+.head{
+    display:inline-block;
+    font-size:2rem;
+    word-spacing:4px;
+    font-weight:700;
+    margin-top:20px;
+    margin-left:35%;
+}
+.options ul{
+    justify-content:center;
+    gap:15px;
+    padding-top:40px;
+    padding-bottom:10px;
+}
+.options ul li a{
+     border:1px solid grey;
+     border-radius:40px;
+     background-color: #f4f5ff;
+     color:black;
+     transition:0.2s;
+     padding:3px 5px;
+}
+.options ul li a img{
+    width:25px;
+}
+.options ul li a:hover{
+   box-shadow: 0px 0px 10px 2px grey;
+}
+.options h5{
+    display:inline-block;
+    font-size:18px;
+    padding:1px 5px;
+}
+.recharge input{
+    display:block;
+    margin-left:35%;
+    width:300px;
+    height:45px;
+    border-radius:4px;
+}
+button{
+    display:block;
+    margin-left:35%;
+    margin-top: 20px;
+    width:300px;
+    height:40px;
+    border-radius:4px;
+    color:white;
+    background-color: black;
+    transition:0.1s;
+}
+button span{
+    font-size:13px;
+}
+button:hover{
+    background-color: #454545;
 }
 /* recommanded ka css*/
 .card-img-top{
