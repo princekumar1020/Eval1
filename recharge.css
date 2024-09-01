@@ -217,6 +217,7 @@ button:hover{
     padding-bottom:10px;
 }
 .varities ul li a{
+    border:1px solid white;
     border-radius:50%;
     background-color:#e3e5ff;
     transition:0.2s;
@@ -356,12 +357,13 @@ button:hover{
 }
 .foot-links ul li{
     padding-top:5px;
+    margin-left:-31px;
 }
 .foot-links ul li a:hover{
     color: #ff0404;
 }
 .parent-of-link{
-    font-size:9px;
+    font-size:12px;
     font-weight:700;
 }
 .bottom-footer{
