@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.internet{
+    background-color:white;
+    width: 100%;
+    height: 100vh;
+}
+.header-container {
+    background-color: white;
+    width: 100%;
+    border-bottom: 0.5px solid #e9e9e9;
+    padding: 10px;
+    padding-left: 5%;
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+  }
+  .header-content {
+    color: red;
+    height: 50px;
+    width: 100%;
+    display: flex;
+  }
+  #header-logo {
+    height: 40px;
+  }
+  .wifi{
+    width:100%;
+    height:0;
+    padding-bottom:50%;
+    position:relative;
+
+}
+#wifi-main{
+    border:none;
+    position:fixed;
+
+    top:6px;left:0;
+    width:100%;
+    height:100%;
+    min-height:360px;
+    border:none;
+    overflow:hidden;
+}
