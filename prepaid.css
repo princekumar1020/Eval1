@@ -19,7 +19,8 @@
   display: flex;
 }
 #header-logo {
-  height: 40px;
+  height: 45px;
+  width: 120px;
 }
 .main-content {
   /* background-color: aqua; */
@@ -39,7 +40,7 @@
   padding: 0% 0px 0px 8%;
   position: fixed;
 height:100vh ;
-  top: 72px;
+  top: 70px;
   max-height: calc(100vh - 72px);
 }
 
@@ -53,7 +54,7 @@ height:100vh ;
   display: block;
   position: absolute;
   max-width: 64px;
-  background-color: #e40000;
+  background: color #1b53da;
   width: 100px;
   height: 5px;
   border-radius: 5px;
@@ -116,13 +117,12 @@ height:100vh ;
   font-size: medium;
   position: relative;
 }
+
+
 .right-nav-tab a:hover {
-  
-  border-bottom: #e40000 solid 3px;
-  animation-duration: inherit;
- 
-  
-}
+  border-bottom: #1b53da solid 3px;
+  animation-duration:100s;
+ }
 
 
 
@@ -171,7 +171,7 @@ animation-duration: 15sec;
 }
 .card-button {
   width: 150px;
-  background-color: #e40000;
+  background-color:#1b53da;
   color: white;
   border-radius: 10px;
   height: 39px;
