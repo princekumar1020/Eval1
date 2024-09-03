@@ -13,7 +13,7 @@
   top: 0px;
 }
 .header-content {
-  color: red;
+  color: #1b53da;
   height: 50px;
   width: 100%;
   display: flex;
@@ -53,7 +53,7 @@ height:100vh ;
   display: block;
   position: absolute;
   max-width: 64px;
-  background-color: #e40000;
+  background-color: #1b53da;
   width: 100px;
   height: 5px;
   border-radius: 5px;
@@ -118,7 +118,7 @@ height:100vh ;
 }
 .right-nav-tab a:hover {
   
-  border-bottom: #e40000 solid 3px;
+  border-bottom: #1b53da solid 3px;
   animation-duration: inherit;
  
   
@@ -128,7 +128,7 @@ height:100vh ;
 
 .right-nav-tab a:active {
   
-  border-bottom: #e40000 solid 5px;
+  border-bottom: #1b53da solid 5px;
 animation-duration: 15sec;
  
   
@@ -171,7 +171,7 @@ animation-duration: 15sec;
 }
 .card-button {
   width: 150px;
-  background-color: #e40000;
+  background-color: #1b53da;
   color: white;
   border-radius: 10px;
   height: 39px;

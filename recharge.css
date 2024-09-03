@@ -46,17 +46,17 @@ a{
     border-top:2px solid white;
 }
 .top-left ul li:hover{
-    border-top:2px solid #E90000;
+    border-top:2px solid #1b53da;
     transition: 0.2s ease-out;
     cursor: pointer;
 }
 .special,.top-left ul li:hover a{
-    color:#E90000;
+    color:#1b53da;
     transition: 0.2s ease-out;
 }
 .top-right{
     font-size:15px;
-    color:#E90000;
+    color:#1b53da;
     border-top:3px solid white;
 }
 .explore{
@@ -64,7 +64,7 @@ a{
    padding:5px;
 }
 .top-right:hover{
-    border-top:3px solid #E90000;
+    border-top:3px solid #1b53da;
     transition: 0.2s ease-out;
     cursor: pointer;
     background-color:#f4f5ff;
@@ -93,8 +93,8 @@ a{
     color:#87888a;
 }
 .main-right ul li:hover{
-    border-top:2px solid #E90000;
-    color:#E90000;
+    border-top:2px solid #1b53da;
+    color:#1b53da;
     transition: 0.2s ease-out;
     cursor: pointer;
     background-color:#f4f5ff;
@@ -236,7 +236,7 @@ button:hover{
  .red-box{
     width:500px;
     height:80px;
-    background-color: #E90000;
+    background-color: ;
     border-radius:4px;
     margin-left:250px;
  }
@@ -248,7 +248,7 @@ button:hover{
 .headline{
     margin-top: -18%;
     margin-left: -180px;
-    color: red;
+    color: #1b53da;
 }
 .card-text-3{
     color: grey;
@@ -277,7 +277,7 @@ button:hover{
     height: 30px;
 }
 .reco:hover {
-    color: red;
+    color: #1b53da;
     transition-duration: 3s;
 }
 .card-img-top-2{
@@ -313,7 +313,7 @@ button:hover{
 }
 /*map ka css*/
 .map-box{
-    background-image:url("img/asset 14.jpeg");
+    background-image:url("asset 14.jpeg");
     height:80vh;
     background-size:cover;
     background-position:center;
@@ -360,7 +360,7 @@ button:hover{
     margin-left:-31px;
 }
 .foot-links ul li a:hover{
-    color: #ff0404;
+    color: #1b53da;
 }
 .parent-of-link{
     font-size:12px;
@@ -377,6 +377,7 @@ button:hover{
 }
 .c1 img{
     cursor: pointer;
+    margin-top: -15px;
 }
 .c2{
     font-size:12px;
