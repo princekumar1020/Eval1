@@ -313,7 +313,7 @@ button:hover{
 }
 /*map ka css*/
 .map-box{
-    background-image:url("asset 14.jpeg");
+    background-image:url("img/mapimg.jpg");
     height:80vh;
     background-size:cover;
     background-position:center;
