@@ -9,6 +9,7 @@
     
     <link href="mobile-number.css" rel="stylesheet">
     <link href="recharge.css" rel="stylesheet">
+    <script src="2.js" defer></script>
 </head>
 <body>
    <nav class="top">
@@ -49,24 +50,26 @@
 
     <div class="main-content-recharge">
 
-        <div class="main-content-left">
-           <div class="content-left">
-            <span >
-                <h3>Recharge</h1>
-                    <p id="left-p">Enter your Details to find the best prepaid plan</p>
-            </span>
-
-
-            <span>
-                <input type="number"  placeholder="Mobile Number" maxlength="10" required>
-
-            </span>
-
-            <button type="button" ><a href="prepaid.html">Continue</a> </button>
-
-           </div>
-
-        </div>
+        
+            <div class="main-content-left">
+                <div class="content-left">
+                 <span >
+                     <h3>Recharge</h1>
+                         <p id="left-p">Enter your Details to find the best prepaid plan</p>
+                 </span>
+     
+     
+                 <form id="mobileForm">
+                    <span>
+                        <input type="tel" placeholder="xxx-xxx-xxxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required id="mobileNo">
+                    </span>
+                
+                    <button type="submit" id="continue">Continue</button>
+                </form>
+                </div>
+     
+             </div>
+        
         <div class="main-content-right">
             <img src="img/bg.png">
 
