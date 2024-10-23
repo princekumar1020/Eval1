@@ -11,7 +11,7 @@
     <link href="recharge.css" rel="stylesheet">
 </head>
 <body>
-    <navbar>    <nav class="top">
+   <nav class="top">
         <div class="container top-nav flex">
             <div class="top-left">
                <ul type="none" class="flex">
@@ -26,27 +26,23 @@
             </div>
         </div>
     </nav>
-    <hr>
-    <!--main nav here-->
-    <nav class="main">
-        <div class="container main-nav flex">
-            <div class="main-left">
-                <img src="logo/logo-no-background.png" alt="company-logo" style="width: 140px;height: 40px;margin-top:-20px">
-            </div>
-            <div class="main-right">
-                <ul type="none" class="flex">
-
-                    <a href="prepaid.html"><li>Recharge</li></a>
-                    <a href="MAPS.html"><li>Maps</li></a>
-                   <a href="internetspeed.html"><li>Net Speed</li></a>
-                    <a href="customer.html"><li>Help Desk</li></a>
-                     <a href="login.html"><li><div class="account flex "><img src="img/asset 22.svg" alt=""><span>Account</span></div>
-                    </li></a>
-                </ul>
-            </div>
+    <hr id="line-main">
+    <navbar>
+        <div class="logo">
+            <img class="logoimg" src="logo/logo-no-background.png" alt="company-logo" ">
         </div>
-    </nav>
+        <ul id="menuList">
+            <li><a href="prepaid.html">Plans</a></li>
+            <li><a href="mobile-recharge.html">Recharge</a></li>
+            <li><a href="internetspeed.html">Net Speed</a></li>
+            <li><a href="customer.html">Help Desk</a></li>
+            <li><a href="login.html">Account</a></li>
+        </ul>
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+        </div>
     </navbar>
+    
 
 
     <!-- main content -->
@@ -66,7 +62,7 @@
 
             </span>
 
-            <button type="submit" ><a href="prepaid.html">Continue</a> </button>
+            <button type="button" ><a href="prepaid.html">Continue</a> </button>
 
            </div>
 
@@ -77,16 +73,8 @@
         </div>
 
     </div>
-    <hr>
-    <div class="container bottom-footer flex">
-        <div class="c1"><img src="logo/logo-nav.png" style="height:30px" alt=""></div>
-        <div class="c2 flex"><div>Get the app</div><img src="img/asset 43.svg" style="height:20px;width:80px;" alt=""><img src="img/asset 44.svg" style="height:20px;width:80px;" alt=""></div>
-        <div class="c3 flex"><div>Follow us on</div>
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-linkedin"></i>
-        <i class="fa-brands fa-youtube"></i>
-        <i class="fa-brands fa-square-twitter"></i>
-        <i class="fa-brands fa-square-instagram"></i>
-    </div>
-
+    
+   
+    <script src="Front.js"></script>
     </body>
+</html>
