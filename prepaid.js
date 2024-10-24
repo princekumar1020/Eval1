@@ -8,10 +8,10 @@ checkamount.addEventListener("click",
     function (e){
         e.preventDefault();
         if(net.value==1){
-            output.innerHTML=(net.value*20*Validity.value);
+            output.innerHTML=(net.value*15*Validity.value);
         }
         else{
-            output.innerHTML=(net.value*35*Validity.value);
+            output.innerHTML=(net.value*25*Validity.value);
         }
     }
 )
