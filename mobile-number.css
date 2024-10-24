@@ -296,4 +296,14 @@
   
     
   }
+  #mobileNo{
+    outline:0;
+  }
+  #mobileNo:valid{
+    border-color: green;
+  }
+  #mobileNo:focus:invalid{
+    border-color: red;
+  }
+  
   
