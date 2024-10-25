@@ -10,7 +10,7 @@ function toggleMenu(){
         menuList.style.maxHeight = "0px";
     }
 }
-
+//--recharge
 
 const prepaid=document.getElementById("prepaid");
 const postpaid=document.getElementById("postpaid");
