@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .header-container {
+    background-color: white;
+    width: 100%;
+    border-bottom: 0.5px solid #e9e9e9;
+    padding: 10px;
+    padding-left: 5%;
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+  }
+  .header-content {
+    color: #1b53da;
+    height: 50px;
+    width: 100%;
+    display: flex;
+  }
+  #header-logo {
+    height: 45px;
+    width: 160px;
+    margin-left: 50px;
+  }
+  .main-content {
+    /* display: flex; */
+    width: 100%;
+    /* top: 68px; */
+    max-height: var(100vh-68px);
+    flex-direction: row;
+  }
+  
+  .left-container {
+    width: 30%;
+  
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    padding: 0% 0px 0px 8%;
+    position: fixed;
+    height: 100vh;
+    top: 70px;
+    max-height: calc(100vh - 72px);
+  }
+  
+
+  
+
+  .left-container-header h1 {
+    font-size: 27px;
+    line-height: 35px;
+    padding-top: 50px;
+    width: 190px;
+    margin-top: 5%;
+  }
+  .left-container-header h1::after {
+    content: "";
+    display: block;
+    position: absolute;
+    max-width: 64px;
+    background-color: #1b53da;
+    background: color #1b53da;
+  
+    width: 100px;
+    height: 5px;
+    border-radius: 5px;
+    margin: 5px;
+  }
+  .left-container-banner {
+    background-color: #f6f6f6;
+  }
+  #left-banner {
+    height: 300px;
+    width: 64%;
+    position: absolute;
+    margin-top: 15px;
+  }
+  .right-container {
+    width: 70%;
+    /* height: 100vh;  */
+    /* background-color: lightblue;  */
+    padding: 0% 3%;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    left: 600px;
+    z-index: 50;
+    /* max-height: calc(100vh - 72px); */
+  }
+  
+  .right-container-nav {
+    top: 70.5px;
+    position: sticky;
+    display: flex;
+    max-height: calc(100vh - 71px);
+    background-color: white;
+  
+    border-bottom: 1px solid #e9e9e9;
+    z-index: 70;
+  }
+  .right-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+  }
+  
+  .right-nav-tab {
+    flex-shrink: 0;
+    text-align: center;
+    padding: 10px 32px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .right-nav-tab a {
+    text-decoration: none;
+    color: rgb(47, 45, 45);
+    font-size: 15px;
+    position: relative;
+  }
+  
+  .right-nav-tab a:hover {
+    border-bottom: #1b53da solid 3px;
+    animation-duration: inherit;
+  }
+  
+  .right-nav-tab a:active {
+    border-bottom: #1b53da solid 5px;
+    animation-duration: 15sec;
+  }
+  .container-card {
+    display: flex;
+  
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 70px;
+  }
+  .container-card .card {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px 0px 0px;
+    height: 180px;
+    border: none;
+    border-bottom: 1px solid rgb(161, 160, 160);
+    width: 100%;
+  }
+  .card-left {
+    float: left;
+    flex: 1;
+    margin: 15px;
+  
+    font-size: 15px;
+    font-weight: 450;
+  }
+  .card-left h1 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .details {
+    float: right;
+    flex: 1;
+    line-height: 13px;
+    font-size: 13px;
+    font-weight: 490;
+    margin: 15px;
+  }
+  .card-button {
+    width: 150px;
+    background-color: #1b53da;
+    color: white;
+    border-radius: 10px;
+    height: 39px;
+    margin-right: 2%;
+    margin-top: 7%;
+    border: none;
+  }
+  .subscriptions img {
+    width: 28px;
+    height: 28px;
+  }
+  .card-head {
+    width: 100%;
+    height: 40px;
+    background-color: #e9e9e9;
+    color: black;
+    padding: 5.5px 20px;
+    font-size: 18px;
+    font-weight: 450;
+  }
+  
+  
+  @media screen and (max-width: 992px) {
+    #header-logo {
+      height: 45px;
+      width: 120px;
+    }
+  
+    .left-container-header h1 {
+      font-size: 24px;
+    }
+  
+    #left-banner {
+      height: 300px;
+      width: 64%;
+      position: absolute;
+      margin-top: 15px;
+    }
+  
+    .card-left {
+      float: left;
+      flex: 1;
+      margin: 15px;
+  
+      font-size: 15px;
+      font-weight: 450;
+    }
+    .card-left h1 {
+      font-size: 15px;
+      font-weight: bold;
+    }
+    .details {
+      float: right;
+      flex: 1;
+      padding-left: 53px;
+      line-height: 13px;
+      font-size: 12px;
+      font-weight: 490;
+      margin: 15px;
+    }
+    .card-button {
+      width: 120px;
+      background-color: #1b53da;
+      color: white;
+      border-radius: 10px;
+      height: 39px;
+      margin-right: 2%;
+      margin-top: 6%;
+      border: none;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    #left-banner {
+      display: none;
+    }
+    #header-logo {
+      height: 50px;
+      width: 128px;
+    }
+    .main-content {
+      flex-direction: column;
+    }
+    .left-container {
+      width: 100%;
+  
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      padding: 0% 0px 0px 8%;
+      position: static;
+      height: 150px;
+      top: 70px;
+      max-height: calc(100vh - 72px);
+    }
+  
+    .left-container-header h1 {
+      font-size: 27px;
+      margin-top: 35px;
+  
+      width: 100%;
+    }
+  
+    .right-container {
+      width: 100%;
+    }
+    .container-card {
+      margin-top: 0px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .left-container-header h1 {
+      font-size: 18px;
+      margin-top: 35px;
+  
+      width: 100%;
+    }
+    .header-container {
+      padding: 10px;
+      padding-left: 5%;
+      position: fixed;
+    }
+    #header-logo {
+      margin-left: 10px;
+    }
+    .card-left {
+      font-size: 11px;
+    }
+    .card-left h1 {
+      font-size: 14px;
+    }
+    .card-button {
+      width: 95px;
+      height: 32px;
+      font-size: 12px;
+    }
+    .details {
+      padding-left: 18px;
+      font-size: 11px;
+    }
+    .card-head {
+      height: 33px;
+      font-size: 15px;
+    }
+    .container-card .card {
+      display: flex;
+      flex-direction: row;
+      margin: 10px 0px 0px 0px;
+      height: 179px;
+    }
+    p {
+  
+      margin-bottom: 7px;
+  }
+  .subscriptions img {
+    width: 18px;
+    height: 17px;
+  }
+  
+  }
+  
